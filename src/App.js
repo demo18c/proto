@@ -2,9 +2,9 @@ import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Sidebar from './components/Sidebar';
-import Canv from './pages/Canv';
+import RadioComp from './pages/radio/RadioComp';
 import Overview from './pages/Overview';
-import RadioTable from './pages/radio/RadioSpec';
+import RadioSpec from './pages/radio/RadioSpec';
 
 function App() {
 	return (
@@ -13,8 +13,8 @@ function App() {
 				<Sidebar />
 				<Switch>
 					<Route path="/overview" component={Overview} />
-					<Route path="/hound" component={Canv} />
-					<Route path="/radio" component={RadioTable} />
+					<Route path="/radiocomp" component={RadioComp} />
+					<Route path="/radiospec" component={RadioSpec} />
 				</Switch>
 			</Router>
 		</>

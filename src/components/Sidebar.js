@@ -40,7 +40,7 @@ const SideBar = () => {
 			<Nav>
 				<DehazeIcon
 					style={{
-						fill: '#f8c548',
+						fill: 'whitesmoke',
 						color: 'white'
 					}}
 					className="menu"

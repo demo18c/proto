@@ -35,15 +35,15 @@ body {
 
 h1,
 h2 {
-	color: #f8c548;
+	color: whitesmoke;
 }
 
 h3 {
-	color: #1f2325;
+	color: whitesmoke;
 }
 
 .title {
-	color: #1f2325;
+	color: whitesmoke;
 }
 
 .top {
@@ -72,7 +72,7 @@ description {
 	justify-content: center;
 	align-items: center;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	color: #f8c548;
+	color: whitesmoke;
 }
 
 .SidebarList .row:hover {

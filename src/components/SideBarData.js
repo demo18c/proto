@@ -25,7 +25,7 @@ export const SideBarData = [
 	{
 		title: 'Radio',
 		icon: <RadioIcon />,
-		path: '/radio'
+		path: '/radiospec'
 	},
 	{
 		title: 'FAQ',

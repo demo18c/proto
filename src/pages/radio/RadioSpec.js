@@ -30,13 +30,13 @@ function createData(specs, descrip) {
 }
 
 const rows = [
-	{ specs: 'Wavefrom', descrip: 'Mobile Networked MIMO MN-MIMO​' },
-	{ specs: 'tEncryption', descrip: 'AES-256, FIPS140-2 Level 2 Suite B' },
-	{ specs: 'Data Rate', descrip: 'Up to 20Mbps' },
-	{ specs: 'MIMO Cap', descrip: 'Spatial Multiplexing, Space-Time Coding, TX/RX Eigen Beamforming​' },
-	{ specs: 'Input Power', descrip: '9 Volts' },
-	{ specs: 'Output Power', descrip: '1mW-1W' },
-	{ specs: 'Freq Range', descrip: '2.2-2.5GHz' }
+	{ specs: 'Wave', descrip: 'wckmwcmwc' },
+	{ specs: 'Enc', descrip: 'svcsvcsvs' },
+	{ specs: 'Data', descrip: 'vsvdv ' },
+	{ specs: 'sdvcsv', descrip: 'sfcsfscscvg​' },
+	{ specs: 'Input Power', descrip: 'scscsc' },
+	{ specs: 'Output Power', descrip: 'wfscvwc' },
+	{ specs: 'cwdcwc', descrip: 'cscc' }
 ];
 
 export default function RadioTable() {
@@ -69,7 +69,7 @@ export default function RadioTable() {
 				</Link>
 			</TableContainer>
 			<>
-				<Button size="large" component={Link} to="/" variant="contained" color="default">
+				<Button size="large" component={Link} to="/radiocomp" variant="contained" color="default">
 					Next
 				</Button>
 			</>
